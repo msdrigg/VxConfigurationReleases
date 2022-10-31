@@ -2,7 +2,7 @@
 fontfamily: txfonts
 ---
 
-# Setup Instructions V1.0.2
+# Setup Instructions V1.0.3
 
 ## Changelog
 
@@ -12,6 +12,8 @@ fontfamily: txfonts
     -   Added the _Gateway Setup -> Notes on Gateway Configuration over Wifi and Lan_ section
     -   Added the _Remote Control_ section
     -   Made updates to the _Gateway Setup -> Troubleshooting_ section
+-   2022-10-31 (v1.0.3): Updated manual firmware upgrade to include support for 64M gateways
+    -   Updated the _Gateway Setup -> Manual Firmware Upgrade_ section
 
 ## Prerequisites
 
