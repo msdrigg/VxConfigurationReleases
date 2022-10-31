@@ -7,7 +7,11 @@
 
 https://github.com/msdrigg/VxConfigurationReleases/raw/main/app-release.apk
 
-## Read the docs
+## Setup instructions
 
-https://github.com/msdrigg/VxConfigurationReleases/blob/main/docs/SetupInstructions.md
+https://github.com/msdrigg/VxConfigurationReleases/blob/main/docs/SetupInstructions/SetupInstructions.md
+
+## Configuration Notes
+
+https://github.com/msdrigg/VxConfigurationReleases/blob/main/docs/ConfigurationNotes/ConfigurationNotes.md
 
