@@ -5,7 +5,7 @@
 
 ## Download the latest binary
 
-https://github.com/msdrigg/VxConfigurationReleases/raw/main/release/app-release.apk
+https://github.com/msdrigg/VxConfigurationReleases/raw/main/app-release.apk
 
 ## Read the docs
 
