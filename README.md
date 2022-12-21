@@ -1,7 +1,7 @@
 # VxConfigurationReleases
 
 - Release page for VxConfiguration 
-- Latest App Version: 1.1.2
+- Latest App Version: 1.1.4
 
 ## Download the latest binary
 
