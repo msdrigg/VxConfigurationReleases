@@ -1,5 +1,6 @@
 ---
 fontfamily: txfonts
+geometry: margin=2cm
 ---
 
 # Setup Instructions V1.0.3
@@ -18,19 +19,19 @@ fontfamily: txfonts
 ## Prerequisites
 
 1. Install the following applications on your phone
-    - VxConfiguration needs to be installed by `adb`. Download the APK from [this link](https://mega.nz/file/kZAQnaoC#IamZOmLVflYAJ0TsVPh4pqJSn_STVQLF76Bu_7OmbxI). If this link is broken, contact Scott Driggers at msdrigg@poltys.com for an updated link.
+    - VxConfiguration needs to be sideloaded onto an android device. Download the APK from [this link](https://github.com/msdrigg/VxConfigurationReleases/blob/main/app-release.apk). Sideloading can be done with `adb` or by copying the apk file into the phone's downloads folder and installing it from there.
     - BeaconSET+ is available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.minew.beaconplus) (for troubleshooting)
-2. Install TeamViewer (or AnyDesk) on a computer that is connected to the same network that the gateways will be connected to (for troubleshooting)
+2. Install TeamViewer (or AnyDesk) on a computer that is connected to the same network that the gateways will be connected to (only required for troubleshooting)
     - Provide the TeamViewer ID and password to the Vx team
 3. [Optional] Install the TeamViewer Host android application from [this link](https://play.google.com/store/apps/details?id=com.teamviewer.host.market&gl=US) on the same phone as the VxConfiguration application. This application can be used to allow the VxConfiguration support to remotely control the VxConfiguration application on your phone.
     - If you wish to allow remote control, the VxConfiguration support team will provide you a username and a password to login with.
     - Note that remote control is not compatible with configuring the gateways over wifi. It can only be used to configure beacons or to configure the gateways over LAN.
 4. Open the VxConfiguration app and click on the `Settings` button in the top right corner
     - Enter the hostname of the Vx server provided by Vx team. NOTE: this hostname should NOT include the `https://` prefix or the `/` suffix. Please be careful because Android can automatically add these prefixes and suffixes when you paste the hostname into the text box.
-    - Enter the SSID and password of the WIFI network that the gateways will be connected to. This must be a 2.4GHz network
+    - Enter the SSID and password of the WIFI network that the gateways will be connected to. This must be a 2.4GHz network. Please note that both fields are case sensitive. Additionally, in the past there have been problems if the 5Ghz and 2.4Ghz networks share the same SSID. If the devices have trouble connecting, this could be the cause.
     - Click "Back" to return to the main screen. The settings already auto-save as you type.
 
-## Gateway Setup
+## Gateway Setup (Minew G1)
 
 ### Notes on Gateway Configuration over Wifi vs Lan
 
